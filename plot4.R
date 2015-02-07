@@ -15,7 +15,7 @@ par(mfrow = c(2,2)) ## setup plot array 2 x 2
 
 ## 1ST PLOT
 
-with(powerData, plot(Time, Global_active_power, ylab = "Global Active Power (kilowatts)", xlab = NA, type = "l")) ## generate line plot of time vs. g.a.p.
+with(powerData, plot(Time, Global_active_power, ylab = "Global Active Power", xlab = NA, type = "l")) ## generate line plot of time vs. g.a.p.
 
 ## 2ND PLOT
 
